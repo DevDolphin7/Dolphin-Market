@@ -11,17 +11,16 @@ import Create from "../routes/AccountCreate.jsx";
 export default function App() {
   return (
     <>
-    <Nav />
-    <Routes>
-      <Route path="/" element={<Browse />} />
-      <Route path="/Sell/ViewItems" element={<ViewItems />} />
-      <Route path="/Sell/AddItem" element={<AddItem />} />
-      <Route path="/Basket" element={<Basket />} />
-      <Route path="/Account/OrderHistory" element={<OrderHistory />} />
-      <Route path="/Account/Kudos" element={<Kudos />} />
-      <Route path="/Account/Create" element={<Create />} />
-    </Routes>
-    
+      <Nav />
+      <Routes>
+        <Route path="/" element={<Browse />} />
+        <Route path="/Sell/ViewItems" element={<ViewItems />} />
+        <Route path="/Sell/AddItem" element={<AddItem />} />
+        <Route path="/Basket" element={<Basket />} />
+        <Route path="/Account/OrderHistory" element={<OrderHistory />} />
+        <Route path="/Account/Kudos" element={<Kudos />} />
+        <Route path="/Account/Create" element={<Create />} />
+      </Routes>
     </>
   );
 }
