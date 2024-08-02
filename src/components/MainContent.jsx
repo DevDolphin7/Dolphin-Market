@@ -1,3 +1,9 @@
+import Header from './Header.jsx'
+import {useState} from 'react'
+
+
 export default function MainContent () {
-    return <><h1>Hello from MainContent</h1></>
+    const [category, setCategory] = useState('')
+    console.log(category)
+    return <Header setCategory={setCategory}/>
 }
