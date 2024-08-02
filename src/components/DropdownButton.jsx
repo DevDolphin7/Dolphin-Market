@@ -27,8 +27,6 @@ export default function SelectVariants({dropdownInfo, }) {
           
             return <MenuItem key={button} value={button}>{button}</MenuItem>
           })}
-          
-     
         </Select>
       </FormControl>
       
